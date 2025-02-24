@@ -1,9 +1,7 @@
-# tests/test_pipeline.py
 import pandas as pd
 from selectml.pipeline import ModelSelectionPipeline
 
 def test_model_selection_pipeline():
-    # A larger, synthetic dataset for better evaluation
     data = {
         'age': [25, 32, 47, 51, 23, 45, 36, 29, 40, 33, 28, 52, 37, 46, 31, 44, 39, 27, 50, 35],
         'income': [50000, 60000, 80000, 90000, 40000, 75000, 65000, 55000, 70000, 62000,
